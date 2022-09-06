@@ -48,7 +48,7 @@ export default function Textarea(props) {
 
       <div className="container">
               <h4>Your text summary:</h4>
-              <p>{text.split(" ").length -1} words <br/> {text.length} characters <br/> Time to read: {0.008 * (text.split(" ").length -1)} min</p>
+              <p>{text.split(" ").length} words <br/> {text.length} characters <br/> Time to read: {0.008 * (text.split(" ").length -1)} min</p>
       </div>
 
       <div className="container">
